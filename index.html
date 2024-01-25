@@ -12,30 +12,37 @@
 
 <body>
 
-    <body class="bg-primary">
-        <div class="container-lg">
-            <h1>WELCOME BACK</h1>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Log In</button>
+    <body class="bg-secondary">
+        <div class="container-md">
+            <div class="row vw-80">
+                <div class="col bg-primary vh-100">
+                    <h1 class="text-secondary">Log In</h1>
+                    <form class="position-relative top-50 start-50 translate-middle">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <a class="btn btn-success btn-md" href="profile_page/index.html" role="button">Log
+                                In</a>
+                        </div>
 
-            </form>
+
+                    </form>
+                </div>
+
+                <div class="col bg-secondary vh-100">
+                    <h1 class="text-primary position-relative top-50 start-50 translate-middle">Welcome Back</h1>
+                    <h5 class="position-relative top-50 start-50 translate-middle">A platform where researchers talk
+                        about breakthroughs in medicine</h5>
+                </div>
+            </div>
         </div>
-
-
-
     </body>
 </body>
 
