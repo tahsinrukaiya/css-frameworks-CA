@@ -1,0 +1,10 @@
+.img-thumbnail {
+    height: 60px;
+    width: 100px;
+}
+
+img {
+    display: block;
+    width: 350px;
+    height: 270px;
+}

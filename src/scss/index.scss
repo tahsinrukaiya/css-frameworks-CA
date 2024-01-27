@@ -1,13 +1,9 @@
-//for body styling
-$primary: #355764;
-$secondary: white;
-$gray-900: #adb5bd;
-$success: #F3B95F;
-
-
-
-
-
-@import "../../node_modules/bootstrap/scss/bootstrap";
+// scss-docs-start import-stack
+// Configuration
+@import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/maps";
 @import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/bootstrap";
