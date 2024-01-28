@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../dist/css/index.css">
     <link rel="stylesheet" href="../css/customcss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,38 +18,23 @@
 
 <body class="bg-secondary">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+    <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
             <a class="logo" href="../index.html"><img src="../images/logo1.JPG" class="img-fluid img-thumbnail" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+            <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-secondary" href="../feed_page/index.html">Feed</a>
+                    <a class="nav-link text-secondary" href="../profile_page/index.html">Profile</a>
+                    <a class="nav-link text-secondary" href="../index.html">Log Out</a>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-secondary" aria-current="page"
-                                href="../feed_page/index.html">Feed</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-secondary" href="../profile_page/index.html">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-secondary" aria-current="page" href="../index.html">
-                                Log out</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
+        </div>
     </nav>
-
 
     <!-- ----------------- PROFILE INFORMATION----------------->
     <section class="h-100 gradient-custom-2">
