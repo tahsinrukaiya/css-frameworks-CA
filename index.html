@@ -14,21 +14,30 @@
     <div class="container-md px-4">
         <div class="row vw-80 gx-5">
             <div class="col bg-primary vh-100 p-3">
-                <form class="position-relative top-50 start-50 translate-middle">
+                <form class="position-relative top-50 start-50 translate-middle" action="./profile_page/index.html">
                     <div class="mb-3 form-outline w-75 mx-auto">
-                        <h1 class="text-secondary">Log In</h1>
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <h1 class="text-secondary text-center">Log In</h1>
+                        <label for="exampleInputEmail1" class="form-label">
+                            <h6>Email address</h6>
+                        </label>
+                        <input type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" class="form-control"
+                            id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3 form-outline w-75 mx-auto">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label for="exampleInputPassword1" class="form-label">
+                            <h6>Password</h6>
+                        </label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        <small class="w-100 text-end">Forgot password?</small>
+                    </div>
+                    <div class="">
+
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto">
-                        <a class="btn btn-success btn-md" href="profile_page/index.html" role="button">Log
-                            In</a>
-                        <div class="">
-                            <h6 class="text-active">Don't have an account? <a><u>Sign up here</u></a></h6>
+                        <button class="btn btn-success btn-md" role="button">Log
+                            In</button>
+                        <div class="small-text">
+                            <h6 class="text-active small">Don't have an account? <a><u>Sign up here</u></a></h6>
                         </div>
                     </div>
                 </form>
@@ -37,9 +46,11 @@
 
 
             <div class="col bg-secondary vh-100 border border-1 border-primary rounded p-3 d-none d-lg-block">
-                <img src="./images/logo5.JPG" alt="" width="210" height="90" class="rounded mx-auto d-block">
-                <h1 class="text-primary position-relative top-50 start-50 translate-middle">Welcome Back</h1>
-                <h5 class="position-relative top-50 start-50 translate-middle">A platform where researchers talk
+                <img src="./images/logo1.JPG" alt="" width="210" class="rounded mx-auto d-block mt-4">
+                <h1 class="text-primary position-relative top-50 start-50 translate-middle text-center">Welcome Back
+                </h1>
+                <h5 class="position-relative top-50 start-50 translate-middle text-center">
+                    A platform where researchers talk
                     about breakthroughs in medicine</h5>
             </div>
         </div>
