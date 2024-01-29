@@ -30,11 +30,9 @@
                         <label for="exampleInputPassword1" class="form-label">
                             <h6>Password</h6>
                         </label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        <input type="password" class="form-control" pattern=".{8,}"
+                            title="Password must be more than 8 characters" required>
                         <small class="w-100 text-end">Forgot password?</small>
-                    </div>
-                    <div class="">
-
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <button class="btn btn-success btn-md text-primary" role="button">Log
