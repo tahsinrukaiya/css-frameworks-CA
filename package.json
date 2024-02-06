@@ -5,8 +5,7 @@
   "scripts": {
     "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1",
     "watch": "sass --watch src/scss:dist/css",
-    "build": "sass src/scss:dist/css",
-    "dev": "npm-run-all --parallel watch start"
+    "build": "sass src/scss:dist/css"
   },
   "repository": {
     "type": "git",
